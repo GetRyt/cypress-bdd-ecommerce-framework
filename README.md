@@ -1,4 +1,8 @@
 # Cypress BDD Automation Framework -- E-Commerce Application
+![Cypress](https://img.shields.io/badge/Tested%20With-Cypress-04C38E?logo=cypress)
+![BDD](https://img.shields.io/badge/Framework-BDD-yellow)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ## Project Overview
 
@@ -42,6 +46,17 @@ Driven Testing** using Scenario Outline and JSON fixtures.
      ┃    ┗ ConfirmPage.js
      ┣ cucumberReports
      ┗ videos
+
+------------------------------------------------------------------------
+
+## Framework Architecture
+
+The framework follows a layered automation architecture:
+
+- Feature Layer – Gherkin scenarios describing user behaviour
+- Step Definition Layer – Maps feature steps to Cypress commands
+- Page Object Layer – Encapsulates UI locators and reusable actions
+- Test Data Layer – External JSON fixtures and Scenario Outline data
 
 ------------------------------------------------------------------------
 
@@ -184,6 +199,7 @@ Open `index.html` to view execution results.
 ## Author
 
 **S Sudarsan**
+QA Automation Enthusiast (Fresher)
 
 📧 Email: sudarshanl27102001@gmail.com\
 🔗 GitHub: https://github.com/GetRyt\
