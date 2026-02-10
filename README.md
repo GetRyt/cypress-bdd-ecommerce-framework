@@ -118,8 +118,8 @@ When I login with valid credentials from feature file
 ### Clone Repository
 
 ``` bash
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/GetRyt/cypress-bdd-ecommerce-framework.git
+cd cypress-bdd-ecommerce-framework
 ```
 
 ### Install Dependencies
